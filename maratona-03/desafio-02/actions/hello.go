@@ -8,5 +8,5 @@ import (
 
 // HelloHandler will respond with "Hello Full Cycle" string
 func HelloHandler(c buffalo.Context) error {
-	return c.Render(http.StatusOK, r.HTML("hello.html"))
+	return c.Render(http.StatusOK, r.JSON("Hello Full Cycle"))
 }

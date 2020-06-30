@@ -5,8 +5,8 @@ FROM gobuffalo/buffalo:v0.16.10 as builder
 ENV GO111MODULE on
 ENV GOPROXY http://proxy.golang.org
 
-RUN mkdir -p /src/desafio_02
-WORKDIR /src/desafio_02
+RUN mkdir -p /src/desafio-02
+WORKDIR /src/desafio-02
 
 # Copy the Go Modules manifests
 COPY go.mod go.mod

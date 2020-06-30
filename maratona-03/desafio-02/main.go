@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"desafio_02/actions"
+	"desafio-02/actions"
 )
 
 // main is the starting point for your Buffalo application.

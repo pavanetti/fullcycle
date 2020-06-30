@@ -1,7 +1,7 @@
 package grifts
 
 import (
-	"desafio_02/actions"
+	"desafio-02/actions"
 
 	"github.com/gobuffalo/buffalo"
 )
