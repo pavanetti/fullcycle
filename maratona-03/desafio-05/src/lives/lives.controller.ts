@@ -6,7 +6,8 @@ export class LivesController {
   constructor(private readonly service: LivesService) {}
 
   @Get()
-  lives(): Array<string> {
-    return this.service.lives();
+  async lives(): Promise<string[]> {
+    const lives = await this.service.lives();
+    return lives.map(live => live.name);
   }
 }
